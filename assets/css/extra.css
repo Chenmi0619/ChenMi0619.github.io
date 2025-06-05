@@ -1,0 +1,22 @@
+/* 整体放大 profile section */
+.main {
+  font-size: 1.2rem; /* 整体放大，默认是1rem，可调成1.2~1.5 */
+}
+
+.profile .title {
+  font-size: 2.8rem !important; /* 放大名字 */
+}
+
+.profile .subtitle {
+  font-size: 1.2rem !important; /* 放大简介 */
+  line-height: 1.8;
+}
+
+.profile .buttons a {
+  font-size: 1.1rem !important; /* 放大底部按钮文字 */
+  padding: 0.6rem 1.2rem;
+}
+
+.profile .social-icons {
+  font-size: 1.8rem !important; /* 放大社交图标 */
+}

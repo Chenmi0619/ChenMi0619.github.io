@@ -2,7 +2,10 @@ baseURL: "https://chenmi0619.github.io/" # baseURL: "https://chenmi0619.github.i
 title: Moritz-Maria von Igelfeld
 theme: PaperMod
 
-# aaa
+params:
+  assets:
+    customCSS: ["css/extra.css"]
+
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
@@ -106,7 +109,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Mi Chen"
       icon: favicon.ico
       iconHeight: 18
 
