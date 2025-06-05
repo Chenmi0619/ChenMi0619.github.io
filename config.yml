@@ -2,6 +2,8 @@ baseURL: "https://pascalmichaillat.org/hugo-website/"
 title: Moritz-Maria von Igelfeld
 theme: PaperMod
 
+# Trigger deploy
+
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
