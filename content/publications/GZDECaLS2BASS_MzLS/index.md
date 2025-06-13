@@ -10,7 +10,7 @@ summary: "This paper introduce an unsupervised domain adaptation (UDA) method th
 cover:
     image: "decals1.jpg"
     alt: "decals-workflow"
-    relative: true
+    relative: false
 editPost:
     URL: "https://academic.oup.com/mnras"
     Text: "Monthly Notices of the Royal Astronomical Society"
