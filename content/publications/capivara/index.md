@@ -10,7 +10,7 @@ summary: "This paper introduce We present capivara, a fast and scalable spectral
 cover:
     image: "capivara.jpg"
     alt: "The workflow"
-    relative: true
+    relative: false
 editPost:
     URL: "https://academic.oup.com/mnras"
     Text: "Monthly Notices of the Royal Astronomical Society"

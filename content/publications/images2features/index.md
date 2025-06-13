@@ -10,7 +10,7 @@ summary: "This paper introduce a two-dimensinal galaxy surface brightness fittin
 cover:
     image: "vae.jpg"
     alt: "vae-workflow"
-    relative: true
+    relative: false
 editPost:
     URL: "https://academic.oup.com/mnras"
     Text: "Monthly Notices of the Royal Astronomical Society"

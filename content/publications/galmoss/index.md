@@ -10,7 +10,7 @@ summary: "This paper introduce a two-dimensinal galaxy surface brightness fittin
 cover:
     image: "1-323.jpg"
     alt: "1-323_fitting"
-    relative: true
+    relative: false
 editPost:
     URL: "https://www.sciencedirect.com/journal/astronomy-and-computing"
     Text: "Astronomy and computing"
