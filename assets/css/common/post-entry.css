@@ -41,6 +41,7 @@
     border-radius: var(--radius);
     transition: transform 0.1s;
     border: 2px solid var(--border);
+    background-color: rgba(255, 255, 255, 0.8); /* 最后一个参数是透明度，范围 0~1 */
 }
 
 .post-entry:hover {

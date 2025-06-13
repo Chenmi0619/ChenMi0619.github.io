@@ -1,7 +1,19 @@
 .page-header,
 .post-header {
     margin: 24px auto var(--content-gap) auto;
+    color: var(--content);
+    line-height: var(--lineheight);
+    font-size: var(--textsize);
+    background-color: rgba(255, 255, 255, 0.8); /* 最后一个参数是透明度，范围 0~1 */
+
+
+    padding: 1rem 1.5rem;  /* 上下0.5rem，左右1.5rem */
+    border-radius: 5px;
+    border-radius: 8px;        
 }
+
+
+    
 
 .post-title {
     margin-bottom: 20px;
@@ -30,7 +42,14 @@
     color: var(--content);
     line-height: var(--lineheight);
     font-size: var(--textsize);
+    background-color: rgba(255, 255, 255, 0.8); /* 最后一个参数是透明度，范围 0~1 */
+
+
+    padding: 0.01rem 1.5rem;  /* 上下0.5rem，左右1.5rem */
+    border-radius: 5px;
+    border-radius: 8px;        /* 圆角边框 */
 }
+
 
 .post-content h3,
 .post-content h4,

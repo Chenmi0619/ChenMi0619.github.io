@@ -31,8 +31,12 @@
         {{- end }}
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
+
+        <!-- 插入 socialIcons 到标题和副标题之间 -->
         {{- partial "social_icons.html" -}}
+
+        <span>{{ .subtitle | markdownify }}</span>
+
 
         {{- with .buttons }}
         <div class="buttons">

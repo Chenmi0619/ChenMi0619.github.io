@@ -50,6 +50,13 @@ body:not(.dark) #sun {
     display: none;
 }
 
+
+body {
+    background: red;
+}
+
+
+
 #menu {
     list-style: none;
     word-break: keep-all;
@@ -91,3 +98,4 @@ body:not(.dark) #sun {
 .logo-switches {
     flex-wrap: inherit;
 }
+

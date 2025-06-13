@@ -6,20 +6,35 @@
 .main .profile {
     align-items: center;
     min-height: calc(100vh - var(--footer-height) - (var(--gap) * 2));
-    font-size: var(--homesize);
+    font-size: 16pt; 
     line-height: var(--lineheight);
     padding: var(--gap);
 }
 
+/* var(--homesize) */
 .profile .profile_inner {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center; /* 使内容居中对齐 */
     gap: 10px;
+
+    background-color: rgba(200, 200, 200, 0.7); /* 灰色，透明度 20% */
+    padding: 0.5em 1em; /* 上下左右内边距 */
+    border-radius: 5px; /* 可选：让底色圆角更柔和 */
 }
+
 
 .profile .profile_inner h1 {
     font-size: 2.5rem;
+    font-family: "DejaVuMathTeXGyre", serif; /* 可替换为你喜欢的字体 */
+    font-weight: bold;
+}
+
+.profile .profile_inner span {
+    font-family: "DejaVuMathTeXGyre", serif;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    /* max-width: 20000000pt; */
 }
 
 .profile img {
@@ -27,21 +42,39 @@
     border: 1px solid var(--tertiary);
 }
 
+.profile img {
+  display: block;
+  margin: 0 auto;
+}
+
+
 .buttons {
     flex-wrap: wrap;
+    margin-top: 80px; 
+
 }
 
 .button {
     background: var(--tertiary);
     border-radius: var(--radius);
-    margin: 6px 12px 6px 0px;
-    padding: 10px;
+    margin: 6px 25px 6px 0px;
+    padding: 8px;
 }
 
+/* .button-inner {
+    padding: 0 1px;
+} */
+
 .button-inner {
-    padding: 0 8px;
+    font-family: "pixeboy", sans-serif !important;
+    font-size: 22pt !important;
 }
+
 
 .button:hover {
     background: var(--lightcolor);
 }
+
+
+    /* font-family: 'pixeboy', serif;   
+    font-size: 0.1rem;             */

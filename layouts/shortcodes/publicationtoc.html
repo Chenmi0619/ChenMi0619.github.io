@@ -1,0 +1,17 @@
+<h2>First Author</h2>
+<ul>
+  {{ range where .Page.Pages.ByDate.Reverse "Params.first_author" true }}
+    <li>
+      <a href="#{{ .Params.id }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+</ul>
+
+<h2>Co-Author</h2>
+<ul>
+  {{ range where .Page.Pages.ByDate.Reverse "Params.first_author" false }}
+    <li>
+      <a href="#{{ .Params.id }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+</ul>

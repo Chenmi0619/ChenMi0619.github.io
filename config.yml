@@ -1,10 +1,8 @@
 baseURL: "https://chenmi0619.github.io/" # baseURL: "https://chenmi0619.github.io/"
-title: Moritz-Maria von Igelfeld
+title: Mi Chen
 theme: PaperMod
 
-params:
-  assets:
-    customCSS: ["css/extra.css"]
+
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -16,25 +14,22 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
+        - name: Publications
+          url: publications/
           weight: 5 
-        - name: Papers
-          url: papers/
+        - name: Code
+          url: code/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
         - name: Data
           url: data/
+          weight: 3
+        - name: Outreach
+          url: outreach/
           weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Mi Chen's publications, data, and contact information."
+    author: Mi Chen 陈宓
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -49,7 +44,7 @@ params:
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
     MainSections: ["books","courses","papers","data"]
-    ShowToc: false
+    ShowToc: true
     disableScrollToTop: true
     TocOpen: true
     ShowWordCount: false
@@ -58,53 +53,60 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Mi Chen
-          subtitle: "I am a Ph.D condidate in the Institute of Kapteyn at the University of Groningen, Netherlands. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
+          title: 'Mi Chen <span class="chinese-name">陈宓</span>'
+          subtitle: "I am a Ph.D. candidate at the Kapteyn Astronomical Institute, University of Groningen, Netherlands.\nMy research focuses on galaxy formation and evolution, and recently, quite a bit on AGNs :D.\nIn the meantime, I also enjoy programming—mostly developing new techniques and packages in astrophysics."
+
+          imageUrl: "mc.jpg"
+          imageWidth: 260
+          imageHeight: 260
           buttons:
-            - name: Papers
-              url: papers/
+            - name: Publications
+              url: publications/
+            - name: Code
+              url: code/              
             - name: Data
               url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            # - name: Books
+            #   url: books/
+            - name: Outreach
+              url: outreach/
+            # - name: Tags
+            #   url: tags/
+            # - name: Archive
+            #   url: archive/
+            # - name: Blog
+            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+    assets:
+      disableFingerprinting: true
+    customCSS: ["css/extended/custom.css"]
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: CV_Chenmi.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: chenmi@astro.rug.nl
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
+        # - name: Google Scholar
+        #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://github.com/Chenmi0619
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
+        # - name: YouTube
+        #   url: https://www.youtube.com/@pmichaillat
+        # - name: Twitter
+        #   url: https://x.com/pmichaillat
+        # - name: Bluesky
+        #   url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true
+    #     customCSS: ["css/extra.css"]
     cover:
         hiddenInList: false
         hiddenInSingle: true
