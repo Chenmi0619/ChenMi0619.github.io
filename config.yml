@@ -28,7 +28,7 @@ menu:
           weight: 4 
 
 params:
-    google-site-verification: "14lG1Yhohoz2o8iph97mZci2C7IknvO_tvbj_nDFMhw"
+    googleSiteVerification: "14lG1Yhohoz2o8iph97mZci2C7IknvO_tvbj_nDFMhw"
     description: "This website hosts Mi Chen (Chen Mi / 陈宓)'s publications, data, and contact information."
     author: Mi Chen 陈宓
     # googleAnalyticsID: "G-XXXXX"
