@@ -54,7 +54,7 @@ params:
     profileMode:
           enabled: true
           title: 'Mi Chen <span class="chinese-name">陈宓</span>'
-          subtitle: "I am a Ph.D. candidate at the Kapteyn Astronomical Institute, University of Groningen, Netherlands.\nMy research focuses on galaxy formation and evolution, and recently, quite a bit on AGNs :D.\nIn the meantime, I also enjoy programming—mostly developing new techniques and packages in astrophysics."
+          subtitle: "I am Mi Chen, a Ph.D. candidate at the Kapteyn Astronomical Institute, University of Groningen, Netherlands.\nMy research focuses on galaxy formation and evolution, and recently, quite a bit on AGNs :D.\nIn the meantime, I also enjoy programming—mostly developing new techniques and packages in astrophysics."
 
           imageUrl: "mc.jpg"
           imageWidth: 260
