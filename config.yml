@@ -28,7 +28,7 @@ menu:
           weight: 4 
 
 params:
-    description: "This website hosts Mi Chen's publications, data, and contact information."
+    description: "This website hosts Mi Chen (Chen Mi / 陈宓)'s publications, data, and contact information."
     author: Mi Chen 陈宓
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
